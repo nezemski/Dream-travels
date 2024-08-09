@@ -1,0 +1,60 @@
+// .main {
+//   background-color: gray;
+//   display: flex;
+// }
+
+// .item {
+//   > image {
+//     width: 500px;
+//     // display: block;
+//     // height: auto;
+//     // border-radius: 5%;;
+//   }
+//   .heading {
+//     font-size: medium;
+//     color: black;
+//     font-weight: bold;
+//   }
+//   .country {
+//     color: red;
+//     font-weight: bold;
+//   }
+// }
+
+// image {
+//   width: 40px;
+//   display: flex;
+//   height: auto;
+//   border: 3px solid black;
+// }
+
+// $primary: bisque;
+// @mixin get-font($size, $weight) {
+//   font-size: $size;
+//   font-weight: $weight;
+// }
+
+// %border {
+//   border: 3px solid red;
+// }
+
+// body {
+//   padding: 20px;
+// }
+
+// .App {
+//   background-color: pink;
+//   h1 {
+//     @include get-font(30px, bold);
+//   }
+//   button {
+//     @extend %border;
+//     &.active {
+//       border: 3px solid red;
+//       background-color: plum;
+//     }
+//     &:hover {
+//       background-color: $primary;
+//     }
+//   }
+// }
